@@ -5,5 +5,5 @@ t.speed(1)
 for x in range(0,a):
 	t.speed(1)
 	t.forward(100)
-	t.left(225)
+	t.left(360/a)
 turtle.getscreen()._root.mainloop()
