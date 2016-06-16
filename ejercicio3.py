@@ -1,11 +1,12 @@
 import time
 import turtle
 t=turtle.Pen()
-t.forward(59)
-t.left(90)
+t.speed(-1)
+t.forward(50)
+t.left(45)
+t.forward(50)
+t.left(450)
 t.forward(50)
 t.left(90)
 t.forward(50)
-t.left(90)
-t.forward(50)
-time.sleep(60)
+turtle.getscreen()._root.mainloop()
